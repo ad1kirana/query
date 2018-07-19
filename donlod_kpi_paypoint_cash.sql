@@ -1,0 +1,6 @@
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch between '03' and '08' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch='04' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch='05' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch='06' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch='07' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'
+select Paybranch,paydate,payinvoiceno,paytipe,payinvoiceamount from meka..paypoint where paybranch='08' and paydate between '2016-10-01' and '2017-03-31' and paytipe='cash'

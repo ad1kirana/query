@@ -1,0 +1,2 @@
+select hlbm_cabang,hlbm_no_lbm,hlbm_kode_warehous,dlbm_kode_barang,dlbm_qty,dlbm_description,hlbm_tanggal
+ from meka..twrsh inner join meka..twrsd on hlbm_no_lbm=dlbm_nomor_lbm where hlbm_jenis_lbm='tp' and hlbm_tanggal >='2017-06-01'

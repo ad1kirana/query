@@ -1,0 +1,2 @@
+select cust_kode,cust_nama,cust_alamat_1,cust_kota,cp_kode_product,cp_std_discount from meka..mcprod inner join meka..mcust on cp_kode_cust=cust_kode where cust_cabang='01' and cust_status_cust<>'1'
+and cp_kode_product between 'inc' and 'inp'

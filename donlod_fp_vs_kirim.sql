@@ -1,0 +1,1 @@
+select distinct ds_nomor_faktur,ar_kode_cust, ar_tanggal_awal, ar_due_date,ar_due_date_adjust,ar_salesman from meka..har inner join meka..tslsd on ar_nomor_bukti=ds_nomor_faktur where ar_cabang='01' and ar_tanggal_awal > '2014-04-30'  and ds_kode_product='she'
