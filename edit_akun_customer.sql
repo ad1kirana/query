@@ -1,0 +1,2 @@
+select top 10 cust_kode,cust_nama,cust_kode_afFco,cust_chart_of_account from meka..mcust where cust_kode='52BAKI'
+--update meka..mcust set cust_chart_of_account='110200000'  from meka..mcust where cust_kode='52BAKI'

@@ -1,0 +1,1 @@
+select rtrim(ar_nomor_bukti),'belum_lunas' from meka..har where ar_giro_cair is null and ar_flag_lunas='n' and ar_company <>'20'

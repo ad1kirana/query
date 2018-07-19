@@ -1,0 +1,1 @@
+select top 1000 part_kode,part_kode_wh,part_stock_bisa_jual from  meka..mpart where part_cabang='01' and part_kode like '%SHE-HX5-15W-50(4LT)%'

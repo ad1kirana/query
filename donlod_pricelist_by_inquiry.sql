@@ -1,0 +1,1 @@
+select PART_Kode_Group, PART_Kode,PART_Nama,PART_Stock_Bisa_Jual,(1.1*PART_Harga_Jual), (0.6*part_harga_jual),part_kode_wh from MEKA..mpart where part_cabang='35' and PART_Stock_Bisa_Jual<>'0'
