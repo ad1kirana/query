@@ -1,0 +1,3 @@
+select top 10 * from sjtrade..userlogin where userid='carsocs'
+select part_cabang,part_kode_wh,part_kode,part_nama,part_stock_bisa_jual from meka..mpart where part_kode_wh='15' and part_stock_bisa_jual between '1' and '99' and part_kode_group='oth' order by part_stock_bisa_jual asc
+--update meka..mpart set part_stock_bisa_jual='100' from meka..mpart where part_kode_wh='15' and part_stock_bisa_jual between '1' and '99' and part_kode_group='oth'

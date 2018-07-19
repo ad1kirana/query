@@ -1,0 +1,2 @@
+select top 1000 * from meka..mslsmn where sales_sts='1' and sales_kode='a2li'
+--update meka..mslsmn set sales_cabang='02', sales_salesoffice='02', sales_kode='EKB', sales_nama='EKO BUDI P',sales_sts='0' from meka..mslsmn where sales_sts='1' and sales_kode='a2li'

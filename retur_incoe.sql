@@ -1,0 +1,1 @@
+select top 1000 rtrim(ds_nomor_faktur),rtrim(ds_kode_barang),ds_qty,ds_qty_retur from meka..tslsh inner join meka..tslsd on hs_nomor_faktur=ds_nomor_faktur where hs_tanggal between '2014-08-01' and '2014-08-31' and ds_qty_retur <>'0' and hs_cabang='01' and ds_kode_product like'in%'

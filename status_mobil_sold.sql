@@ -1,0 +1,6 @@
+select top 10 * from meka..mcmbl where cust_kode='031301924c'
+select top 10 * from meka..mcmbl where cust_kode='031301924c' and cust_no_kendaraan=''
+--update meka..mcmbl set cust_register='SOLD' from meka..mcmbl where cust_kode='031301924c'
+--update meka..mcmbl set cust_register='' from meka..mcmbl where cust_kode='031301924c' and cust_nokendaraan='B 1919 LB'           
+--update meka..mcmbl set cust_register='' from meka..mcmbl where cust_kode='031301924c' and cust_nokendaraan='H 8266 WG'           
+--update meka..mcmbl set cust_register='' from meka..mcmbl where cust_kode='031301924c' and cust_nokendaraan='K 8662 VA'           
