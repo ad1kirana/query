@@ -1,0 +1,3 @@
+select * from sjtrade..smscontentoutbox a inner join sjtrade..masterstatus b on a.smsstatus=b.smsstatus where smsdate between '2014-03-22' and '2014-03-25' and a.smsstatus='2' and smscontent <> 'null'
+select * from sjtrade..smscontentoutbox where smsdate between '2014-03-22' and '2014-03-25' and smsstatus='2' and smscontent <> 'null'
+--update sjtrade..smscontentoutbox set smscounter='0', smsstatus='1' from sjtrade..smscontentoutbox where smsdate between '2014-03-22' and '2014-03-25' and smsstatus='2' and smscontent <> 'null'

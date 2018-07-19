@@ -1,0 +1,1 @@
+select top 10000 hlbm_tanggal,hlbm_no_lbm,hlbm_nomor_dokumen,dlbm_description,dlbm_no_dokumen from meka..twrsh inner join meka..twrsd on hlbm_no_lbm=dlbm_nomor_lbm where hlbm_nomor_dokumen like '%PO' and dlbm_description <>'' and hlbm_cabang='30'

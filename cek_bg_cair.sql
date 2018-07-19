@@ -1,0 +1,10 @@
+select top 10 * from meka..tbrvd where dbrv_kode_brv between '303014003923br' and '303014003924br'
+select top 10 * from meka..tbrvh where hbrv_nomor_brv between '303014003923br' and '303014003924br'
+select top 10 * from meka..tcgrh where hpg_nomor_pencairan between '303014000791PG' and '303014000795PG'
+select top 10 * from meka..tcgrd where dpg_nomor_pencairan='303014000793PG'
+select top 10 * from meka..tcgrd where dpg_nomor_pencairan='303014000790PG'
+select top 10 * from meka..tcgrd where dpg_nomor_pencairan='303014001185PG'
+select top 10 * from meka..tbrvh where hbrv_nomor_brv='303014005705BR'
+select top 10 * from meka..tbrvh where hbrv_nomor_brv='303014003923br'
+select top 10 * from meka..tbrvd where dbrv_nomor_document='303014001185PG'
+sle

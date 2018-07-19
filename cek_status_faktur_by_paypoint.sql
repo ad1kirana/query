@@ -1,0 +1,2 @@
+select payinvoiceno,paytipe,ar_status_giro from meka..paypoint inner join meka..har on payinvoiceno=ar_nomor_bukti where paydate='2014-07-25' and paybranch='03' and paytipe <> 'cash'
+select top 10 * from meka..ttdh

@@ -1,0 +1,8 @@
+select hps_warehouse,hps_kode_barang,hps_tanggal,hps_stock_awal,hps_stock_rfs from meka..hspos where hps_warehouse='21' and hps_kode_barang='WB-DCS-018' and hps_tanggal='2014-05-01'
+select stok_warehouse,stok_kode_barang,stok_tanggal,stok_kode_product,stok_qty,stok_kode_transaksi,stok_sifat_trn,stok_no_doc from meka..hkstok where stok_warehouse='21' and stok_kode_barang='WB-DCS-018' and stok_tanggal between  '2014-05-01' and '2014-06-30'
+select stok_warehouse,stok_kode_barang,stok_tanggal,stok_kode_product,stok_qty,stok_kode_transaksi,stok_sifat_trn,stok_no_doc  from meka..hmkstok where stok_warehouse='21' and stok_kode_barang='WB-DCS-018' and stok_tanggal between  '2014-05-01' and '2014-06-30'
+--select top 10 * from meka..tslsh where hs_nomor_faktur='010514003891FP      '
+--select top 10 * from meka..torderh where hs_nomor_faktur='010514003991OR'
+--select top 10 * from meka..torderd where ds_nomor_faktur='010514003991OR'
+select top 10 * from meka..mffcost where ff_kode_barang='WB-DCS-018' and ff_flag_closed <> 'y' and ff_cabang='05'
+select top 10 * from meka..hffmov where mc_nomor_fifo='62131' and mc_cabang='03'

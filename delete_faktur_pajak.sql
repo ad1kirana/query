@@ -1,0 +1,5 @@
+--update meka..har set ar_flag_lunas='Y' from meka..har where ar_nomor_bukti='010114028966FP'
+--delete from meka..tpjkh where faktur_pajak ='010.034-16.27404320'
+--delete from meka..tpjkd where faktur_pajak ='010.034-16.27404320'
+select top 10 * from meka..tpjkd where faktur_pajak ='010.034-16.27404320'
+select top 10 * from meka..tpjkh where faktur_pajak ='010.034-16.27404320'
