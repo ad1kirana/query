@@ -1,0 +1,3 @@
+select top 10 * from meka..mctl
+--insert into meka..mctl (CFP_Company,CFP_Cabang,CFP_KeyCode,CFP_Ctl,CPF_PPn_Nama,CPF_PPN_Jabatan,CPF_NPWP,CPF_Pengukuhan,CPF_SIUP,CPF_Alamat,CPF_Nama_NPWP,CPF_Jabatan,CPF_CreateUser,CPF_CreateDate,CPF_CreateTime,CPF_ModifyUser,CPF_ModifyDate,CPF_ModifyTime,CPF_YEAR)
+values ('01','06','1','0','010.001-13.0','TULUS WIDODO','01.594.771.6-511.000','1 APRIL 2012','01.594.771.6-503.001','JL.PUSPOWARNO TENGAH NO.7-13 SEMARANG','PT. MEKA ADIPRATAMA','Chief Store','','','','','','','')

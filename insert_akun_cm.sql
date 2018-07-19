@@ -1,0 +1,1 @@
+select * from meka..usermpacc where r_userid='IKA'

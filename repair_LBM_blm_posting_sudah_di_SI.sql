@@ -1,0 +1,8 @@
+select top 10 * from meka..twrsh inner join meka..twrsd on hlbm_no_lbm= dlbm_nomor_lbm where hlbm_no_lbm between '010116004039BM' and  '010116004039BM'
+select top 10 * from meka..twrsd where dlbm_nomor_lbm='010116004039BM'
+--update meka..twrsd set DLBM_qty_dibayar='0' from meka..twrsd where dlbm_nomor_lbm='010116004039BM'
+--update meka..twrsd set DLBM_qty_dibayar='60' from meka..twrsd where dlbm_nomor_lbm='010116004039BM'
+select top 10 * from meka..twrsh inner join meka..twrsd on hlbm_no_lbm= dlbm_nomor_lbm where hlbm_no_lbm between '010116004039BM' and  '010116004039BM'
+select top 10 * from meka..twrsd where dlbm_nomor_lbm='010116004039BM'
+--update meka..twrsd set dlbm_nomor_lbm='010216002068BM' from meka..twrsd where dlbm_nomor_lbm='010216002238BM'
+--update meka..twrsh set hlbm_no_lbm='010216002068BM' from meka..twrsh where hlbm_no_lbm='010216002238BM'

@@ -1,0 +1,2 @@
+select top 100 * from meka..mffcost where ff_kode_barang='JS260340-0310' and ff_cabang='03'
+--update meka..mffcost set ff_qty_keluar='19', ff_flag_closed='N' from meka..mffcost where ff_kode_barang='JS260340-0310' and ff_cabang='03' and ff_counter='63688' and ff_qty_keluar='20'

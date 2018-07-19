@@ -1,0 +1,1 @@
+select top 10 * from meka..mktrnafco where kode_affco='022'
